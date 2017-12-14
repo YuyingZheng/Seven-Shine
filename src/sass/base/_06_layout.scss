@@ -18,12 +18,17 @@
     max-width: 11.4rem;
   }
 }
-
-.col-5 {
-  width: 46%;
+.global-width {
+  width: 1140px;
+  max-width: 100%;
+  margin: 0 auto;
 }
+
 .col-7 {
   width: 52%;
+}
+.col-5 {
+  width: 48%;
 }
 
 //============================================//
@@ -58,6 +63,7 @@
     .logo-img,
     .logo-text {
      display: inline-block;
+     font-family: $feature-font-family;
      >* {
       display: block;
     }
@@ -92,12 +98,12 @@
 .nav-link{
   display: inline-block;
   text-align: center;
-  margin: .08rem .2rem;
+  margin: .08rem .35rem;
   padding: .08rem 0;
   text-decoration: none;
-  font-weight: 700;
-  font-family: $extra-font-family;
   color: $title-font-color;
+  font-weight: 700;
+  font-size: 12px;
   &.active,
   &:hover{
     color: $active-font-color;

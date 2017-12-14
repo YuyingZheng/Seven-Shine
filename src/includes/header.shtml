@@ -1,6 +1,6 @@
 <header class="header clearfix">
-  <div class="nav-bar clearfix">
-    <div class="col-5 left text-center">
+  <div class="clearfix global-width nav-bar">
+    <div class="col-5 left">
       <div class="logo">
         <div class="logo-img">
           <img src="./assets/images/logo.png">

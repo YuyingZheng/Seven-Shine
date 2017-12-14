@@ -73,6 +73,15 @@
 	src: url("../assets/fonts/opensans-condbold-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/opensans-condbold-webfont.woff2") format("woff2"), url("../assets/fonts/opensans-condbold-webfont.woff") format("woff"), url("../assets/fonts/opensans-condbold-webfont.ttf") format("truetype"), url("../assets/fonts/opensans-condbold-webfont.svg#open_sans_condensedbold") format("svg");
 }
 
+@font-face{
+	font-family: "JLinXin";
+	font-style: normal;
+	font-weight: 700;
+
+	src: url("../assets/fonts/JLinXin.eot");
+	src: url("../assets/fonts/JLinXin.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/JLinXin.woff2") format("woff2"), url("../assets/fonts/JLinXin.woff") format("woff"), url("../assets/fonts/JLinXin.ttf") format("truetype"), url("../assets/fonts/JLinXin.svg#j_lin_xin") format("svg");
+}
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html{
 	font-family: "Montserrat", "Arial", sans-serif;
@@ -642,12 +651,18 @@ img{
 	}
 }
 
-.col-5{
-	width: 46%;
+.global-width{
+	width: 1140px;
+	max-width: 100%;
+	margin: 0 auto;
 }
 
 .col-7{
 	width: 52%;
+}
+
+.col-5{
+	width: 48%;
 }
 
 #app{
@@ -689,6 +704,7 @@ img{
 .header .logo .logo-img,
 .header .logo .logo-text{
 	display: inline-block;
+	font-family: "JLinXin";
 }
 
 .header .logo .logo-img > *,
@@ -730,8 +746,8 @@ img{
 .header .nav-link{
 	display: inline-block;
 	padding: .08rem 0;
-	margin: .08rem .2rem;
-	font-family: "Open Sans Condensed", sans-serif;
+	margin: .08rem .35rem;
+	font-size: 12px;
 	font-weight: 700;
 	color: #3d3d3d;
 	text-align: center;
