@@ -1,0 +1,24 @@
+<header class="header clearfix">
+  <div class="nav-bar clearfix">
+    <div class="col-5 left text-center">
+      <div class="logo">
+        <div class="logo-img">
+          <img src="./assets/images/logo.png">
+        </div>
+        <div class="logo-text">
+          <span class="chinese-name">七泽科技</span>
+          <span class="english-name">Seven-shine techology</span>
+        </div>
+      </div>
+    </div>
+    <nav class="col-7 right">
+       <ul class="nav-list">
+         <li class="right"><a class="nav-link active" href="#">首页</a></li>
+         <li class="right"><a class="nav-link" href="#">关于七泽</a></li>
+         <li class="right"><a class="nav-link" href="#">加入七泽</a></li>
+         <li class="right"><a class="nav-link" href="#">七泽动态</a></li>
+         <li class="right"><a class="nav-link" href="#">联系我们</a></li>
+       </ul>
+    </nav>
+  </div>
+</header>
