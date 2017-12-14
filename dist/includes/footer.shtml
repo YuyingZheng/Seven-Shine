@@ -1,0 +1,14 @@
+<footer class="footer clearfix">
+	<div class="copyright">
+	  <p>腾讯宣布推出新大数据产品 腾讯宣布推出新大数据产品 包括机器学习基础平台等</p>
+	  <p>腾讯宣布推出新大数据产品 包括机器学习基础平台等 习基础平</p>
+	  <p>腾讯宣布推出新大数据产品 包括机器学习基础平台等 习</p>
+	</div>
+  <div class="qr-code right text-center">
+  	<img src="./assets/images/qrcode.png">
+  	<span>微信关注我们</span>
+  </div>
+	<a class="scroll-top J_ScrollTop" href="javascript:void(0);">
+		<svg class="icon icon-scroll-top"><use xlink:href="assets/images/icons.svg#icon-scroll-top"></use></svg>
+	</a>
+</footer>
